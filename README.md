@@ -3,7 +3,6 @@
 TODO: COMMENTS
 
 
-
 Decoding the message inside the PPM picture using the sieve of Eratosthenes(implemented with bitmap).
 You can use my library for bitmaps(creating, destroying, getting bits, setting bits in two variants(inline or macro))
 
@@ -16,6 +15,13 @@ It takes ***LSB***s of color bytes, brings it to the new **char**(_8 bits_). Whe
 So, you can play with it and decode/encode whatever message with method of encryption.
 
 >Also there is completely stupid error lib, it was necessary for project, bruh
+>
+
+***MAKEFILE creates two variants of "primes" program : using inline(-i)/macro functions ***
+
+>"make run" to run both primes progs
+>
+>./steg-decode _yourImage.ppm_
 
 
 
