@@ -4,6 +4,8 @@
 
 
 Decoding the message inside the PPM picture using the sieve of Eratosthenes(implemented with bitmap).
+
+
 You can use my library for bitmaps(creating, destroying, getting bits, setting bits in two variants(inline or macro))
 
 
